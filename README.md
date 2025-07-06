@@ -5,7 +5,7 @@ State-space models have been extensively used in various fields such as signal p
 
 
 ## Main Experiment Results
-- Note that coverage $\approx 0.95$ is better.
+- Empirically showed the superior uncertainty quantification ability of the proposed improvement, 2R EnKF, without compromising the state estimation.
 - Empirically showed the short of coverage of the EnKF.
 
 ### Table 1: Ornstein-Uhlenbeck Model  
