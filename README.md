@@ -19,7 +19,7 @@ State-space models have been extensively used in various fields such as signal p
 
 
 ### Table 2: Van der Pol Oscillator  
-**Comparison of Ensemble Kalman Filter (EnKF) and 2R EnKF with Different Ensemble Sizes (Random Seed 801)**
+**Comparison of Ensemble Kalman Filter (EnKF) and 2R EnKF with Different Ensemble Sizes (Random Seed 801). $x_1$ is the position and $x_2$ is the velocity**
 
 | Method                          | Coverage Probability (q=30) | MSE (q=30) | Coverage Probability (q=1500) | MSE (q=1500) |
 |--------------------------------|-----------------------------|------------|-------------------------------|---------------|
