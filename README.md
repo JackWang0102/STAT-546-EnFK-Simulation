@@ -7,7 +7,7 @@ State-space models have been extensively used in various fields such as signal p
 - Note that coverage $\approx 0.95$ is better.
 - Empirically showed the short of coverage of the EnKF.
 
-### Table: Ornstein-Uhlenbeck Model  
+### Table 1: Ornstein-Uhlenbeck Model  
 **Comparison of Kalman Filter (KF) and Ensemble Kalman Filter (EnKF) with Different Ensemble Sizes (Random Seed 701)**
 
 | Method              | Coverage Probability (q=5) | MSE (q=5) | Coverage Probability (q=30) | MSE (q=30) |
@@ -17,7 +17,7 @@ State-space models have been extensively used in various fields such as signal p
 | EnKF with R = 2R    | 0.79                        | 0.110     | **0.93**                         | 0.100      |
 
 
-### Table: Van der Pol Oscillator  
+### Table 2: Van der Pol Oscillator  
 **Comparison of Ensemble Kalman Filter (EnKF) and 2R EnKF with Different Ensemble Sizes (Random Seed 801)**
 
 | Method                          | Coverage Probability (q=30) | MSE (q=30) | Coverage Probability (q=1500) | MSE (q=1500) |
@@ -27,7 +27,7 @@ State-space models have been extensively used in various fields such as signal p
 | EnKF with R=2R $x_{1,t}$     | 0.66                        | 0.76       | **0.79**                          | 0.88          |
 | EnKF with R=2R $x_{2,t}$     | 0.79                        | 0.19       | **0.92**                          | 0.16          |
 
-### Table: Lorenz-96 Model  
+### Table 3: Lorenz-96 Model  
 **Comparison of Ensemble Kalman Filter (EnKF) and 2R EnKF with Different Ensemble Sizes (Random Seed 801)**
 
 | Method                    | Coverage Probability (q=50) | MSE (q=50) | Coverage Probability (q=500) | MSE (q=500) |
