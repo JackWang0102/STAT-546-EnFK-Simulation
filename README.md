@@ -17,9 +17,9 @@ State-space models have been extensively used in various fields such as signal p
 | Method                          | Coverage Probability (q=30) | MSE (q=30) | Coverage Probability (q=1500) | MSE (q=1500) |
 |--------------------------------|-----------------------------|------------|-------------------------------|---------------|
 | EnKF $x_{1,t}$               | 0.67                        | 0.63       | 0.65                          | 0.67          |
-| EnKF $(x_{2,t}$               | 0.69                        | 0.19       | 0.68                          | 0.15          |
+| EnKF $x_{2,t}$               | 0.69                        | 0.19       | 0.68                          | 0.15          |
 | EnKF with R=2R $x_{1,t}$     | 0.66                        | 0.76       | 0.79                          | 0.88          |
-| EnKF with R=2R $x_{2,t}$     | 0.79                        | 0.19       | 0.92                          | 0.16          |
+| EnKF with R=2R $x_{2,t}$     | 0.79                        | 0.19       | ==0.92==                          | 0.16          |
 
 ### Table: Lorenz-96 Model  
 **Comparison of Ensemble Kalman Filter (EnKF) and 2R EnKF with Different Ensemble Sizes (Random Seed 801)**
