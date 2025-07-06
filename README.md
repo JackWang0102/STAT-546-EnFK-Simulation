@@ -1,5 +1,11 @@
 # STAT-546-EnFK-Simulation
+## Abstract
 State-space models have been extensively used in various fields such as signal processing, economics, and weather forecasting due to their versatility in handling time series data. Among the techniques developed for filtering and state estimation, the Ensemble Kalman Filter (EnKF) has proven to be effective in addressing the challenges of non-linearity and high dimensionality, though it often suffers from issues such as covariance underestimation and filter divergence. Inspired by the Langevinized Ensemble Kalman Filter (LEnKF), this study explores the effects of modifying the Kalman gain computation by replacing the observation noise $R_t$ with $2R_t$ in the EnKF. Through numerical studies on low-dimensional and high-dimensional systems—including the Ornstein-Uhlenbeck model, Van der Pol oscillator, and Lorenz-96 model, we demonstrate that the modified EnKF achieves better uncertainty quantification without compromising state estimation accuracy. These findings suggest the potential for further improvements in ensemble-based filtering methods, particularly in high-dimensional and non-linear systems.
+
+
+## Main Experiment Results
+- Note that coverage $\approx 0.95$ is better.
+- Empirically showed the short of coverage of the EnKF.
 
 ### Table: Ornstein-Uhlenbeck Model  
 **Comparison of Kalman Filter (KF) and Ensemble Kalman Filter (EnKF) with Different Ensemble Sizes (Random Seed 701)**
